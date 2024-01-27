@@ -1,0 +1,973 @@
+Unity Editor version:    2021.3.29f1c1 (0b77087ad835)
+Branch:                  2021.3/china_unity/release
+Build type:              Release
+Batch mode:              YES
+macOS version:           Version 13.2.1 (Build 22D68)
+Darwin version:          22.3.0
+Architecture:            arm64
+Running under Rosetta:   NO
+Available memory:        16384 MB
+Using pre-set license
+Pro License: YES
+
+COMMAND LINE ARGUMENTS:
+/Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/MacOS/Unity
+-adb2
+-batchMode
+-noUpm
+-name
+AssetImportWorker0
+-projectPath
+/Users/shuangsu/UnityProject/Day 4
+-logFile
+Logs/AssetImportWorker0.log
+-srvPort
+64829
+Successfully changed project path to: /Users/shuangsu/UnityProject/Day 4
+/Users/shuangsu/UnityProject/Day 4
+[UnityMemory] Configuration Parameters - Can be set up in boot.config
+    "memorysetup-bucket-allocator-granularity=16"
+    "memorysetup-bucket-allocator-bucket-count=8"
+    "memorysetup-bucket-allocator-block-size=33554432"
+    "memorysetup-bucket-allocator-block-count=8"
+    "memorysetup-main-allocator-block-size=16777216"
+    "memorysetup-thread-allocator-block-size=16777216"
+    "memorysetup-gfx-main-allocator-block-size=16777216"
+    "memorysetup-gfx-thread-allocator-block-size=16777216"
+    "memorysetup-cache-allocator-block-size=4194304"
+    "memorysetup-typetree-allocator-block-size=2097152"
+    "memorysetup-profiler-bucket-allocator-granularity=16"
+    "memorysetup-profiler-bucket-allocator-bucket-count=8"
+    "memorysetup-profiler-bucket-allocator-block-size=33554432"
+    "memorysetup-profiler-bucket-allocator-block-count=8"
+    "memorysetup-profiler-allocator-block-size=16777216"
+    "memorysetup-profiler-editor-allocator-block-size=1048576"
+    "memorysetup-temp-allocator-size-main=16777216"
+    "memorysetup-job-temp-allocator-block-size=2097152"
+    "memorysetup-job-temp-allocator-block-size-background=1048576"
+    "memorysetup-job-temp-allocator-reduction-small-platforms=262144"
+    "memorysetup-temp-allocator-size-background-worker=32768"
+    "memorysetup-temp-allocator-size-job-worker=262144"
+    "memorysetup-temp-allocator-size-preload-manager=33554432"
+    "memorysetup-temp-allocator-size-nav-mesh-worker=65536"
+    "memorysetup-temp-allocator-size-audio-worker=65536"
+    "memorysetup-temp-allocator-size-cloud-worker=32768"
+    "memorysetup-temp-allocator-size-gi-baking-worker=262144"
+    "memorysetup-temp-allocator-size-gfx=262144"
+Player connection [8809693504] Host "[IP] 10.151.10.4 [Port] 0 [Flags] 2 [Guid] 3259113921 [EditorId] 3259113921 [Version] 1048832 [Id] OSXEditor(0,PrismdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined multi-casting on [225.0.0.222:54997]...
+
+Player connection [8809693504] Host "[IP] 10.151.10.4 [Port] 0 [Flags] 2 [Guid] 3259113921 [EditorId] 3259113921 [Version] 1048832 [Id] OSXEditor(0,PrismdeMacBook-Pro.local) [Debug] 1 [PackageName] OSXEditor [ProjectName] Editor" joined alternative multi-casting on [225.0.0.222:34997]...
+
+AS: AutoStreaming module initializing.
+Refreshing native plugins compatible for Editor in 70.80 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Initialize engine version: 2021.3.29f1c1 (0b77087ad835)
+[Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/Resources/UnitySubsystems
+[Subsystems] Discovering subsystems at path /Users/shuangsu/UnityProject/Day 4/Assets
+GfxDevice: creating device client; threaded=0; jobified=0
+ preferred device: Apple M1 Pro (high power)
+Metal devices available: 1
+0: Apple M1 Pro (high power)
+Using device Apple M1 Pro (high power)
+Initializing Metal device caps: Apple M1 Pro
+Initialize mono
+Mono path[0] = '/Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/Managed'
+Mono path[1] = '/Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit-macos'
+Mono config path = '/Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/MonoBleedingEdge/etc'
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56707
+Begin MonoManager ReloadAssembly
+Registering precompiled unity dll's ...
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
+Register platform support module: /Applications/Unity/Hub/Editor/2021.3.29f1c1/PlaybackEngines/AndroidPlayer/UnityEditor.Android.Extensions.dll
+Registered in 0.003466 seconds.
+Native extension for Android target not found
+Android Extension - Scanning For ADB Devices 83 ms
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 72.36 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Mono: successfully reloaded assembly
+- Completed reload, in  0.510 seconds
+Domain Reload Profiling:
+	ReloadAssembly (511ms)
+		BeginReloadAssembly (76ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (0ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (1ms)
+		EndReloadAssembly (382ms)
+			LoadAssemblies (77ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (61ms)
+			ReleaseScriptCaches (0ms)
+			RebuildScriptCaches (18ms)
+			SetupLoadedEditorAssemblies (277ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (140ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (72ms)
+				BeforeProcessingInitializeOnLoad (1ms)
+				ProcessInitializeOnLoadAttributes (41ms)
+				ProcessInitializeOnLoadMethodAttributes (22ms)
+				AfterProcessingInitializeOnLoad (0ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (0ms)
+Platform modules already initialized, skipping
+Registering precompiled user dll's ...
+Registered in 0.001521 seconds.
+Begin MonoManager ReloadAssembly
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 74.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Package Manager log level set to [2]
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Ximmerse.XR.SDKEditorUtility.GetXimmerseXRSDKPackageInfo () [0x0000f] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:83 
+  at Ximmerse.XR.SDKEditorUtility.InitializeEditor () [0x00000] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:62 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  1.024 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1024ms)
+		BeginReloadAssembly (63ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (15ms)
+		EndReloadAssembly (905ms)
+			LoadAssemblies (64ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (173ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (45ms)
+			SetupLoadedEditorAssemblies (578ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (75ms)
+				BeforeProcessingInitializeOnLoad (70ms)
+				ProcessInitializeOnLoadAttributes (150ms)
+				ProcessInitializeOnLoadMethodAttributes (271ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (12ms)
+Platform modules already initialized, skipping
+========================================================================
+Worker process is ready to serve import requests
+Launching external process: /Applications/Unity/Hub/Editor/2021.3.29f1c1/Unity.app/Contents/Tools/UnityShaderCompiler
+Launched and connected shader compiler UnityShaderCompiler after 0.14 seconds
+Refreshing native plugins compatible for Editor in 0.39 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4448 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 38 unused Assets / (319.3 KB). Loaded Objects now: 4905.
+Memory consumption went from 159.9 MB to 159.6 MB.
+Total: 66.358125 ms (FindLiveObjects: 0.135875 ms CreateObjectMapping: 0.056417 ms MarkObjects: 66.064625 ms  DeleteObjects: 0.100084 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 276237.785535 seconds.
+  path: Assets/111.fbx
+  artifactKey: Guid(d8314b16669d48d4db05622d7fd6dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/111.fbx using Guid(d8314b16669d48d4db05622d7fd6dda6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75cb70dadb68fd7ee84aaaffe1478020') in 0.588912 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001338 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x29a6c7000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.55 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Ximmerse.XR.SDKEditorUtility.GetXimmerseXRSDKPackageInfo () [0x0000f] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:83 
+  at Ximmerse.XR.SDKEditorUtility.InitializeEditor () [0x00000] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:62 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.834 seconds
+Domain Reload Profiling:
+	ReloadAssembly (835ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (715ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (172ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (36ms)
+				ProcessInitializeOnLoadAttributes (121ms)
+				ProcessInitializeOnLoadMethodAttributes (269ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (4ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.83 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4437 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.9 KB). Loaded Objects now: 4920.
+Memory consumption went from 170.1 MB to 170.0 MB.
+Total: 2.749208 ms (FindLiveObjects: 0.118416 ms CreateObjectMapping: 0.064917 ms MarkObjects: 2.508208 ms  DeleteObjects: 0.056792 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 6595.401383 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/XR Device Simulator
+  artifactKey: Guid(d7afb70036d884e0d92e3f1886cf05a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/XR Device Simulator using Guid(d7afb70036d884e0d92e3f1886cf05a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4cbaaaedbf5c0bb83387fa101c4ce1b5') in 0.050016 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001228 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.48 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Ximmerse.XR.SDKEditorUtility.GetXimmerseXRSDKPackageInfo () [0x0000f] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:83 
+  at Ximmerse.XR.SDKEditorUtility.InitializeEditor () [0x00000] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:62 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.930 seconds
+Domain Reload Profiling:
+	ReloadAssembly (931ms)
+		BeginReloadAssembly (126ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (4ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (51ms)
+		EndReloadAssembly (747ms)
+			LoadAssemblies (54ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (190ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (444ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (10ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (42ms)
+				ProcessInitializeOnLoadAttributes (118ms)
+				ProcessInitializeOnLoadMethodAttributes (271ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (1ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 0.90 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4440 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (42.9 KB). Loaded Objects now: 4927.
+Memory consumption went from 170.2 MB to 170.2 MB.
+Total: 2.588959 ms (FindLiveObjects: 0.143042 ms CreateObjectMapping: 0.092333 ms MarkObjects: 2.296125 ms  DeleteObjects: 0.057000 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 10.975415 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets
+  artifactKey: Guid(0e09e3606ce1f47f7b49adcef4d02c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets using Guid(0e09e3606ce1f47f7b49adcef4d02c77) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '917bb90130432c90bd864d4a370859f1') in 0.008543 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001289 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.44 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateInstanceAsset (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:285)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:210)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+[Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs line 22]
+
+Exception caught trying to create path.
+UnityEngine.UnityException: Creating asset at path Assets/XRI/Settings/Resources/InteractionLayerSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Unity.XR.CoreUtils.ScriptableSettingsBase`1[T].CreateInstanceAsset (System.String savePath) [0x0002a] in /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:285 
+  at Unity.XR.CoreUtils.ScriptableSettingsBase`1[T].Save (System.String savePathFormat) [0x00067] in /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:210 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogWarning (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs:45)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:214)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs Line: 45)
+
+The path 'Assets/XRI/Settings' is invalid. Generating a path instead.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogWarning (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs:45)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:220)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs Line: 45)
+
+Error saving  (UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings). Could not get a MonoScript from the instance
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogWarning (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs:45)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:230)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs Line: 45)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation..cctor () [0x00023] in /Users/shuangsu/UnityProject/Day 4/Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Ximmerse.XR.SDKEditorUtility.GetXimmerseXRSDKPackageInfo () [0x0000f] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:83 
+  at Ximmerse.XR.SDKEditorUtility.InitializeEditor () [0x00000] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:62 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.885 seconds
+Domain Reload Profiling:
+	ReloadAssembly (885ms)
+		BeginReloadAssembly (72ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (2ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (21ms)
+		EndReloadAssembly (764ms)
+			LoadAssemblies (38ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (183ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (31ms)
+			SetupLoadedEditorAssemblies (463ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (13ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (43ms)
+				ProcessInitializeOnLoadAttributes (123ms)
+				ProcessInitializeOnLoadMethodAttributes (284ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.07 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4447 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (23.1 KB). Loaded Objects now: 4938.
+Memory consumption went from 170.6 MB to 170.6 MB.
+Total: 2.425083 ms (FindLiveObjects: 0.138750 ms CreateObjectMapping: 0.056708 ms MarkObjects: 2.188792 ms  DeleteObjects: 0.040291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.61 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.9 KB). Loaded Objects now: 4938.
+Memory consumption went from 82.1 MB to 82.1 MB.
+Total: 3.353750 ms (FindLiveObjects: 0.208875 ms CreateObjectMapping: 0.054000 ms MarkObjects: 3.040541 ms  DeleteObjects: 0.049917 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.51 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.9 KB). Loaded Objects now: 4938.
+Memory consumption went from 81.8 MB to 81.8 MB.
+Total: 2.776458 ms (FindLiveObjects: 0.138667 ms CreateObjectMapping: 0.058166 ms MarkObjects: 2.536584 ms  DeleteObjects: 0.042583 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  graphicsApiMask: 2048 -> 2099200
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 3.99 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (22.9 KB). Loaded Objects now: 4938.
+Memory consumption went from 81.8 MB to 81.8 MB.
+Total: 2.889250 ms (FindLiveObjects: 0.157584 ms CreateObjectMapping: 0.058541 ms MarkObjects: 2.614750 ms  DeleteObjects: 0.057500 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 1.87 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (23.0 KB). Loaded Objects now: 4938.
+Memory consumption went from 81.8 MB to 81.8 MB.
+Total: 5.786916 ms (FindLiveObjects: 0.141333 ms CreateObjectMapping: 0.055667 ms MarkObjects: 5.541500 ms  DeleteObjects: 0.048041 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Import Request.
+  Time since last request: 71.159083 seconds.
+  path: Assets/Materials/lambert2.mat
+  artifactKey: Guid(ef280091d41d14970ae42ba301403507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Materials/lambert2.mat using Guid(ef280091d41d14970ae42ba301403507) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '956788ea5bc5e6fe2572ea49a9e1b3c3') in 0.173987 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 3.252179 seconds.
+  path: Assets/XR/XRGeneralSettings.asset
+  artifactKey: Guid(ec8821942d248864dbfe889df1799e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/XRGeneralSettings.asset using Guid(ec8821942d248864dbfe889df1799e25) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a00560e1b0b8da73b3696a44baa71834') in 0.064060 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 1.005223 seconds.
+  path: Assets/XR/Loaders
+  artifactKey: Guid(ddb697cd4805d4843a298276772715a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders using Guid(ddb697cd4805d4843a298276772715a7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '08fa31dd5c4eb85f6b52396ab708f4aa') in 0.001134 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.062356 seconds.
+  path: Assets/XR/Loaders/Ximmerse XR Loader.asset
+  artifactKey: Guid(562bccca0140a7b479c019d3c3942aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/XR/Loaders/Ximmerse XR Loader.asset using Guid(562bccca0140a7b479c019d3c3942aea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c5397f215750b49659875e88f972e24e') in 0.001576 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 30.673484 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab
+  artifactKey: Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Teleport/Blocking Teleport Reticle.prefab using Guid(a3fde713df4d99042a0403c4be9eea32) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6a8551266c559162cce61299f3759693') in 0.314458 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000071 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab
+  artifactKey: Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactors/Poke Interactor.prefab using Guid(27024f5809f4a4347b9cd7f26a1bdf93) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7e86a7a2707bc92dc7289a6e92a5fcdb') in 0.014938 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000063 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab
+  artifactKey: Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/UI_2D/ModalSingleButton.prefab using Guid(c24a7635b5761984d81cf6c4aac26e0d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0d5344b6d54207751ad1c8a27c9e0b6b') in 0.009882 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000119 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Simple Cube.prefab
+  artifactKey: Guid(2e16046ebcbcb6742a86569d82e56cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Simple Cube.prefab using Guid(2e16046ebcbcb6742a86569d82e56cce) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50d614e6d24a5a2635da750930b9505f') in 0.016353 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000052 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab
+  artifactKey: Guid(ad818c36731146e994540a1896ad8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactors/Ray Interactor.prefab using Guid(ad818c36731146e994540a1896ad8f24) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dfca829a0aa87c87703876b1bd3a16a6') in 0.010129 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000047 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab
+  artifactKey: Guid(d5615d616019430d9c2e8727e71c97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Velocity Tracked Wedge.prefab using Guid(d5615d616019430d9c2e8727e71c97fb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12687dba137689227d9160055e15d495') in 0.011350 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/XR Device Simulator/XR Device Simulator.prefab
+  artifactKey: Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/XR Device Simulator/XR Device Simulator.prefab using Guid(18ddb545287c546e19cc77dc9fbb2189) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6ef44438cfe4cb064a5fc778a767632c') in 0.014382 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000053 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Pyramid.fbx
+  artifactKey: Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/Primitive_Pyramid.fbx using Guid(63e02ddb08ce42da868504e1333d48ae) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '44f500a250052d20f7f5feab4c700a3b') in 0.019435 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000043 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Teleport/Snapping Teleport Anchor.prefab
+  artifactKey: Guid(037ba65d346be2a48ad006b9a9a3873e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Teleport/Snapping Teleport Anchor.prefab using Guid(037ba65d346be2a48ad006b9a9a3873e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a0a2519b7b1fa51d8e362543dacaa94') in 0.013626 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab
+  artifactKey: Guid(b84cd05e1160fe34cab2585022c8cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactors/Gaze Interactor.prefab using Guid(b84cd05e1160fe34cab2585022c8cd99) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bd138153de82df26a7447171a90a5ee4') in 0.007732 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000033 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/XR Origin (XR Rig).prefab
+  artifactKey: Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/XR Origin (XR Rig).prefab using Guid(f6336ac4ac8b4d34bc5072418cdc62a0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'da368b6a7a912c4f4e1bb3abfebcdc4f') in 0.026995 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab
+  artifactKey: Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interaction Affordance.prefab using Guid(eb9104ef66b7305468adb3697fdeed5e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f54fa98e7ce8c04c16add9fc1106ab40') in 0.001786 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000080 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx
+  artifactKey: Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Models/XRControllerLeft.fbx using Guid(be3083a5f26d4e859d594ecbe632f87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12d64782662c096dcd7f8273c25d05c0') in 0.060810 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000298 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Kinematic Torus.prefab
+  artifactKey: Guid(521327bdbcb341f782d36f02cab76cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Kinematic Torus.prefab using Guid(521327bdbcb341f782d36f02cab76cb0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f361a2af33d4042991302cee9fc44089') in 0.008863 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000049 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Instant Pyramid.prefab
+  artifactKey: Guid(2ed984a58a974166bf92c82a74380454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Interactables/Interactable Instant Pyramid.prefab using Guid(2ed984a58a974166bf92c82a74380454) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4954b69197a94db185a7f9aa73cc55e2') in 0.007312 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000045 seconds.
+  path: Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab
+  artifactKey: Guid(fad94b617f0540568dbf4c9c4011248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Prefabs/Teleport/Teleport Anchor.prefab using Guid(fad94b617f0540568dbf4c9c4011248c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a9f486007c78efcb3ab03a8788345a8e') in 0.005845 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.000056 seconds.
+  path: Assets/Samples/Ximmerse XR Plugin/1.2.0/Hello Unity/Models/Ring LED controller_R.fbx
+  artifactKey: Guid(a7fc91d7e72b41b4eaf5b6d7a4353d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Samples/Ximmerse XR Plugin/1.2.0/Hello Unity/Models/Ring LED controller_R.fbx using Guid(a7fc91d7e72b41b4eaf5b6d7a4353d19) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '7da08be4137bd79412fc2da4575a6416') in 0.109865 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 23.214598 seconds.
+  path: Assets/Scenes/SampleScene.unity
+  artifactKey: Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/SampleScene.unity using Guid(9fc0d4010bbf28b4594072e72b8655ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e55ccaa32d8e5c1de03c07a5412c8c3c') in 0.001418 seconds 
+========================================================================
+Received Import Request.
+  Time since last request: 0.579078 seconds.
+  path: Assets/Scenes/RhinoXPro_TagTracking_Demo.unity
+  artifactKey: Guid(7f55aae9c2b835a4b8097f8c213e697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scenes/RhinoXPro_TagTracking_Demo.unity using Guid(7f55aae9c2b835a4b8097f8c213e697c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6268b5e110a9a56de7d332c2a20b5631') in 0.002082 seconds 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.001570 seconds.
+Begin MonoManager ReloadAssembly
+Thread 0x16d667000 may have been prematurely finalized
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/YamlDotNet/Unity.VisualScripting.YamlDotNet.dll
+Symbol file LoadedFromMemory doesn't match image /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.visualscripting@1.8.0/Editor/VisualScripting.Core/Dependencies/DotNetZip/Unity.VisualScripting.IonicZip.dll
+Native extension for Android target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 0.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+CreateSerializedAsset is not supported while importing out-of-process
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateInstanceAsset (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:285)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:210)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+[Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs line 22]
+
+Exception caught trying to create path.
+UnityEngine.UnityException: Creating asset at path Assets/XRI/Settings/Resources/InteractionLayerSettings.asset failed.
+  at (wrapper managed-to-native) UnityEditor.AssetDatabase.CreateAsset(UnityEngine.Object,string)
+  at Unity.XR.CoreUtils.ScriptableSettingsBase`1[T].CreateInstanceAsset (System.String savePath) [0x0002a] in /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:285 
+  at Unity.XR.CoreUtils.ScriptableSettingsBase`1[T].Save (System.String savePathFormat) [0x00067] in /Users/shuangsu/UnityProject/Day 4/Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:210 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogWarning (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs:45)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:214)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs Line: 45)
+
+The path 'Assets/XRI/Settings' is invalid. Generating a path instead.
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogWarning (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs:45)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:220)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs Line: 45)
+
+Error saving  (UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings). Could not get a MonoScript from the instance
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object,UnityEngine.Object)
+UnityEngine.Debug:LogWarning (object,UnityEngine.Object)
+Unity.XR.CoreUtils.XRLoggingUtils:LogWarning (string,UnityEngine.Object) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs:45)
+Unity.XR.CoreUtils.ScriptableSettingsBase`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:Save (string) (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettingsBase.cs:230)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:CreateAndLoad () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:45)
+Unity.XR.CoreUtils.ScriptableSettings`1<UnityEngine.XR.Interaction.Toolkit.InteractionLayerSettings>:get_Instance () (at Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/ScriptableSettings.cs:25)
+UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation:.cctor () (at Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22)
+System.Reflection.RuntimeMethodInfo:Invoke (object,System.Reflection.BindingFlags,System.Reflection.Binder,object[],System.Globalization.CultureInfo)
+System.Reflection.MethodBase:Invoke (object,object[])
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147)
+
+(Filename: Library/PackageCache/com.unity.xr.core-utils@2.2.1/Runtime/XRLoggingUtils.cs Line: 45)
+
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.TypeInitializationException: The type initializer for 'UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation' threw an exception. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at UnityEditor.XR.Interaction.Toolkit.Samples.StarterAssetsSampleProjectValidation..cctor () [0x00023] in /Users/shuangsu/UnityProject/Day 4/Assets/Samples/XR Interaction Toolkit/2.4.0/Starter Assets/Editor/Scripts/StarterAssetsSampleProjectValidation.cs:22 
+   --- End of inner exception stack trace ---
+  at (wrapper managed-to-native) System.Object.__icall_wrapper_mono_gc_wbarrier_generic_nostore_internal(intptr)
+  at (wrapper write-barrier) System.Object.wbarrier_conc(intptr)
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+[Package Manager] Server::EnsureServerProcessIsRunning -- launch failed, reason: Unity was launched with the -noUpm command-line argument
+[Package Manager] Cannot connect to Unity Package Manager local server
+System.Reflection.TargetInvocationException: Exception has been thrown by the target of an invocation. ---> System.NullReferenceException: Object reference not set to an instance of an object
+  at Ximmerse.XR.SDKEditorUtility.GetXimmerseXRSDKPackageInfo () [0x0000f] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:83 
+  at Ximmerse.XR.SDKEditorUtility.InitializeEditor () [0x00000] in /Users/shuangsu/UnityProject/Ximmerse_UnityXR_SDK_V1.7.4/Editor/EditorUtilities/SDKEditorUtility.cs:62 
+  at (wrapper managed-to-native) System.Reflection.RuntimeMethodInfo.InternalInvoke(System.Reflection.RuntimeMethodInfo,object,object[],System.Exception&)
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x0006a] in <f78378fc25024256ba9c49776f5e810c>:0 
+   --- End of inner exception stack trace ---
+  at System.Reflection.RuntimeMethodInfo.Invoke (System.Object obj, System.Reflection.BindingFlags invokeAttr, System.Reflection.Binder binder, System.Object[] parameters, System.Globalization.CultureInfo culture) [0x00083] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at System.Reflection.MethodBase.Invoke (System.Object obj, System.Object[] parameters) [0x00000] in <f78378fc25024256ba9c49776f5e810c>:0 
+  at UnityEditor.EditorAssemblies.ProcessInitializeOnLoadMethodAttributes () [0x000a5] in /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:147 
+UnityEngine.StackTraceUtility:ExtractStackTrace () (at /Users/unity/sharedspace/ra_2021.3/Runtime/Export/Scripting/StackTrace.cs:37)
+UnityEngine.DebugLogHandler:LogFormat (UnityEngine.LogType,UnityEngine.Object,string,object[])
+UnityEngine.Logger:Log (UnityEngine.LogType,object)
+UnityEngine.Debug:LogError (object)
+UnityEditor.EditorAssemblies:ProcessInitializeOnLoadMethodAttributes () (at /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs:151)
+
+(Filename: /Users/unity/sharedspace/ra_2021.3/Editor/Mono/EditorAssemblies.cs Line: 151)
+
+Mono: successfully reloaded assembly
+- Completed reload, in  0.937 seconds
+Domain Reload Profiling:
+	ReloadAssembly (937ms)
+		BeginReloadAssembly (103ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (3ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (40ms)
+		EndReloadAssembly (785ms)
+			LoadAssemblies (53ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (214ms)
+			ReleaseScriptCaches (2ms)
+			RebuildScriptCaches (30ms)
+			SetupLoadedEditorAssemblies (454ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (11ms)
+				SetLoadedEditorAssemblies (0ms)
+				RefreshPlugins (0ms)
+				BeforeProcessingInitializeOnLoad (38ms)
+				ProcessInitializeOnLoadAttributes (125ms)
+				ProcessInitializeOnLoadMethodAttributes (279ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (2ms)
+Platform modules already initialized, skipping
+Refreshing native plugins compatible for Editor in 1.19 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 4447 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 29 unused Assets / (64.9 KB). Loaded Objects now: 4981.
+Memory consumption went from 183.5 MB to 183.4 MB.
+Total: 2.900333 ms (FindLiveObjects: 0.172042 ms CreateObjectMapping: 0.059541 ms MarkObjects: 2.552792 ms  DeleteObjects: 0.115291 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 8.58 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (23.0 KB). Loaded Objects now: 4981.
+Memory consumption went from 95.0 MB to 94.9 MB.
+Total: 20.033333 ms (FindLiveObjects: 0.267583 ms CreateObjectMapping: 0.059000 ms MarkObjects: 18.753708 ms  DeleteObjects: 0.952375 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 7.35 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 25 Unused Serialized files (Serialized files now loaded: 0)
+Unloading 25 unused Assets / (43.0 KB). Loaded Objects now: 4981.
+Memory consumption went from 94.7 MB to 94.6 MB.
+Total: 7.702667 ms (FindLiveObjects: 0.267167 ms CreateObjectMapping: 0.057542 ms MarkObjects: 7.294541 ms  DeleteObjects: 0.082875 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:CustomObjectIndexerAttribute: bc11b3a6c3213fcdd17b65e7da85e133 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
