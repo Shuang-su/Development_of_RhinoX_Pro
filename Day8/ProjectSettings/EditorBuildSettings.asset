@@ -1,0 +1,16 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/MultiUser_Demo_For_Pro.unity
+    guid: abad2442536da574f9b00983e514fd0f
+  - enabled: 1
+    path: Assets/Samples/Ximmerse XR Plugin/1.7.4/Hello Unity/Scenes/Gaze And Gesture
+      Interaction Sample.unity
+    guid: 6599a1bca1c2b45418600747e3ba972c
+  m_configObjects:
+    com.unity.xr.management.loader_settings: {fileID: 11400000, guid: c23d410d90cec44908a82970006c73d2, type: 2}
